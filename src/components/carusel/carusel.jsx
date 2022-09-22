@@ -2,8 +2,7 @@ import React from "react"
 
 
 export default class Carousel extends React.Component{
-  
-      render(){
+  render(){
       return(
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner"style={{height:"500px",overflow:"hidden"}} >
@@ -26,6 +25,6 @@ export default class Carousel extends React.Component{
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-        );
-      }
+      );
+    }
   }

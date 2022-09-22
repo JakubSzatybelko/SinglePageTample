@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import Navbar from "./components/navbar/navbar";
 import Carousel from "./components/carusel/carusel";
 import "./customstyle.css";
-import MainPage from "./components/Pages/mainPage";
+import MainPage from "./Pages/mainPage";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
