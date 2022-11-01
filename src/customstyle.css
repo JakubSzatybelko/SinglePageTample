@@ -1,48 +1,65 @@
+/* https://www.creaton.pl/_Resources/Persistent/9/0/e/7/90e714c4279302398e1b1af9a54761e64732c042/Jaki%20kszta%C5%82t%20mo%C5%BCe%20mie%C4%87%20dach%20-%2001-889x465.jpg */
+
+
+
 /* Demo styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
 
 a {
   cursor: pointer;
   text-decoration: none;
 }
-/**
- * ANIMATIONS CSS ---------------------------------
- */
-.effect-one {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+
+  height: 100vh;
+  text-align: center;
+  color: #CCC;
   position: relative;
+  text-transform: uppercase;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
 }
-.effect-one:before {
-  content: "";
+
+.hero-one {
+  top: 0;
   position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-title {
   width: 100%;
-  height: 2px;
-  bottom: 0;
-  margin: 5px -10px;
-  background-color: white;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.4s ease-in-out 0s;
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  letter-spacing: 14px;
 }
-.effect-one:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
+
+.header-primary {
+  font-size: 2em;
+  display: block;
+  font-weight: 700;
 }
-/* .carouselImg{
-  height: 400px;
-  object-fit: contain;
-} */
-.TerminBut{
-  cursor: pointer;
-  background-color: rgb(122, 26, 26);
-  border: 1px black solid;
-  border-radius: 3px;
+.menu-wrapper{
+  display: flex;
+  gap:50px;
+  z-index: 2;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
 }
-.TerminBut:focus{
-  background-color: rgba(248, 158, 158, 0.692);
-}
-.apoView{
-  cursor: pointer;
-  background-color: rgb(255, 255, 255);
-  border: 1px black solid;
-  border-radius: 3px;
+.nav-litem{
 }

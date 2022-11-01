@@ -48,7 +48,7 @@ export default class MainPage extends React.Component {
               <img
                 data-aos="slide-right"
                 style={{ height: "200px" }}
-                className="float-start rounded"
+                className="float-start rounded me-3"
                 src="https://i.postimg.cc/NfvZwj12/244622249-866020767609897-3784407638343700036-n.jpg"
               />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -66,9 +66,39 @@ export default class MainPage extends React.Component {
 
             <hr />
           </div>
+          <div data-aos="fade-up" className="mb-5 overflow-hidden">
+            <h2 id="About">Lokalizacja</h2>
+            <div className="d-lg-flex">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                tempus tempus sapien, placerat mattis lacus maximus eu. Donec
+                sollicitudin leo auctor metus suscipit aliquet. Sed eget commodo
+                est. Vestibulum dapibus nunc ut turpis suscipit placerat. Ut
+                euismod mauris a odio lobortis, id consectetur massa tincidunt.
+                Ut ut luctus libero. Quisque a luctus lacus, et convallis urna.
+                Etiam cursus, mi eu aliquam mattis, turpis mauris sagittis orci,
+                id aliquet odio tortor vel diam. Sed vitae metus nec enim
+                facilisis tristique. Aliquam pulvinar enim sodales diam
+                tincidunt faucibus. Morbi quis lectus lorem. Fusce eleifend
+                mauris a odio lobortis, non venenatis justo maximus.aliquet odio
+                tortor vel diam. Sed vitae metus nec enim facilisis tristique.
+                Aliquam pulvinar enim sodales diam tincidunt faucibus. Morbi
+                quis lectus lorem. Fusce eleifend mauris a odio lobortis, non
+                venenatis justo maximus.
+              </p>
+              <img
+                data-aos="slide-left"
+                style={{ "max-height": "500px" }}
+                className="rounded ms-auto me-3 img-fluid"
+                src="https://www.seashepherd.tattoo/wp-content/uploads/2019/10/Studiophoto-Homepage.jpg"
+              />
+            </div>
+
+            <hr />
+          </div>
         </div>
         <div data-aos="fade" className="container mb-4">
-          <h2>Contact Us</h2>
+          <h2>Kontakt</h2>
           <hr />
           <div>
             Mochnackiego 3/5 Olsztyn, 10-036 Polska
@@ -94,7 +124,7 @@ export default class MainPage extends React.Component {
             </a>
           </span>
           <div style={{ color: "#fccc63" }}>
-            <i className="bi bi-telephone me-2 fs-5"></i>501 201 222
+            <i className="bi bi-telephone me-2 fs-5"></i>XXX 201 222
           </div>
         </div>
       </div>
