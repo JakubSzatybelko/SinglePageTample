@@ -27,7 +27,7 @@ export default class MainPage extends React.Component {
                 aż do terminowej i co najważniejsze, rzetelnej realizacji
                 usługi.
               </p>
-              <div className="col-lg-4 ms-3 ">
+              <div className="col-lg-4 ms-lg-3 ">
                 <img
                   data-aos="slide-left"
                   className="rounded ms-auto img-fluid w-100"
@@ -38,7 +38,7 @@ export default class MainPage extends React.Component {
           </div>
           <div data-aos="fade-up" className="mb-5 overflow-hidden">
             <div className="d-lg-flex">
-              <div className="col-lg-4 me-3">
+              <div className="col-lg-4 me-lg-3">
                 <img
                   data-aos="slide-right"
                   className="rounded ms-auto img-fluid w-100"
@@ -70,7 +70,7 @@ export default class MainPage extends React.Component {
                 Świadczymy usługi remontowe na terenie Morąga i okolic.
               </p>
             </div>
-            <div className="col-lg-4  ms-3">
+            <div className="col-lg-4 ms-lg-3">
               <img
                 data-aos="slide-left"
                 className="roundedimg-fluid w-100"
