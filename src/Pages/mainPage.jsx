@@ -27,23 +27,24 @@ export default class MainPage extends React.Component {
                 aż do terminowej i co najważniejsze, rzetelnej realizacji
                 usługi.
               </p>
-              <img
-                data-aos="slide-left"
-                style={{ height: "500px" }}
-                className="rounded ms-auto me-3 img-fluid"
-                src="P1.jpg"
-              />
+              <div className="col-lg-4 ms-3 ">
+                <img
+                  data-aos="slide-left"
+                  className="rounded ms-auto img-fluid w-100"
+                  src="P1.jpg"
+                />
+              </div>
             </div>
           </div>
           <div data-aos="fade-up" className="mb-5 overflow-hidden">
-            <h2 id="About">Lokalizacja</h2>
             <div className="d-lg-flex">
-              <img
-                data-aos="slide-right"
-                style={{ "max-height": "800px" }}
-                className="rounded ms-auto me-3 img-fluid"
-                src="P3.jpg"
-              />
+              <div className="col-lg-4 me-3">
+                <img
+                  data-aos="slide-right"
+                  className="rounded ms-auto img-fluid w-100"
+                  src="P3.jpg"
+                />
+              </div>
               <p className="fs-5">
                 Przeprowadzamy kompleksowe remonty całych budynków lub wybranych
                 przez Państwa pomieszczeń: salonów, kuchni oraz łazienek.
@@ -69,12 +70,13 @@ export default class MainPage extends React.Component {
                 Świadczymy usługi remontowe na terenie Morąga i okolic.
               </p>
             </div>
-            <img
-              data-aos="slide-left"
-              style={{ height: "400px" }}
-              className="rounded me-3"
-              src="P2.jpg"
-            />
+            <div className="col-lg-4  ms-3">
+              <img
+                data-aos="slide-left"
+                className="roundedimg-fluid w-100"
+                src="P2.jpg"
+              />
+            </div>
           </div>
         </div>
         <div id="kotakt" data-aos="fade" className="container mb-4">
@@ -87,9 +89,9 @@ export default class MainPage extends React.Component {
               <div>Słonecznik 14-300 Morąg</div>
             </span>
           </div>
-          <span>
+          <span className="d-flex align-items-center">
             <i className="bi bi-envelope me-2 fs-5 text-primary"></i>
-            gill.kamil83@gmail.com
+            <div>gill.kamil83@gmail.com</div>
           </span>
           <div>
             <i className="bi bi-telephone text-primary me-2 fs-5"></i>+48 696

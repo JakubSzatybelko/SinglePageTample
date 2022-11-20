@@ -34,7 +34,7 @@ a {
   width: 100vw;
   height: 100vh;
   z-index: 1;
-  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("/src/P0.png");
     background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
