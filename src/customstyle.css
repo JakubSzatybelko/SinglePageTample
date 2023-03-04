@@ -19,68 +19,28 @@ a {
   padding: 0;
 }
 
-.hero {
+.hero_background{
+
+}
+#root{
+  overflow: hidden;
+}
+.cover{
   height: 100vh;
-  text-align: center;
-  color: #CCC;
-  position: relative;
-  text-transform: uppercase;
-  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/6527069/pexels-photo-6527069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
 }
-
-.hero-one {
-  top: 0;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: 1;
-  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.cover-container{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.6747431394432772) 0%, rgba(255,255,255,0) 60%);
 }
-.hero-two {
-  top: 0;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  z-index: 10;
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgb(255, 255, 255) 0%,rgba(255,255,255,0) 100%); 
-    background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.header_text_1{
+  color: white;
 }
-
-.header-title {
-  width: 100%;
-  z-index: 2;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  letter-spacing: 14px;
+.header_text_2{
+  color: white;
+  font-style: italic;
 }
-
-.header-primary {
-  font-size: 2em;
-  display: block;
-  font-weight: 700;
-}
-.menu-wrapper{
-  display: flex;
-  gap:50px;
-  z-index: 2;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -5%);
-}
-.divider{
-  width: 50%;
-  margin: auto;
-}
-.nav-litem{
-
-  text-decoration: none;
+.menu{
+  font-size: 2rem;
 }
